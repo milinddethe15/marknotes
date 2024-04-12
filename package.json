@@ -1,0 +1,35 @@
+{
+  "name": "marknotes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@mdxeditor/editor": "^2.9.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tauri-apps/api": "^1",
+    "jotai": "^2.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tauri-plugin-fs-extra-api": "https://github.com/tauri-apps/tauri-plugin-fs-extra"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "clsx": "^2.1.0",
+    "postcss": "^8.4.35",
+    "react-icons": "^5.0.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
